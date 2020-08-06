@@ -11,7 +11,7 @@ body {
 #top {
     padding-bottom: 10px;
     background-color: grey;
-    width: 960px;
+    width: 800px;
     display: block;
     margin: 0 auto;
     border: 1px solid black;
@@ -24,6 +24,8 @@ h2 {
     display: block;
     margin: 0 auto;
     padding: 10px 0;
+    font-family: monospace;
+    font-size: 40px;
 }
 
 #buttons {
@@ -41,8 +43,8 @@ h2 {
     display: grid;
     grid-template-columns: repeat(var(--grid-cols), 1fr);
     grid-template-rows: repeat(var(--grid-rows), 1fr);
-    height: 960px;
-    width: 960px;
+    height: 800px;
+    width: 800px;
     background-color: white;
     margin: 0 auto ;
     border: 1px solid grey;
