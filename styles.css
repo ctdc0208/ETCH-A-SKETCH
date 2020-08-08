@@ -53,10 +53,6 @@ h2 {
     color: #9090ee;
 }
 
-.checked:checked {
-    background-color: #eeee90;
-}
-
 #grid {
     display: grid;
     grid-template-columns: repeat(var(--grid-cols), 1fr);
